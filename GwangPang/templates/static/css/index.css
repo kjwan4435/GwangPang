@@ -1,0 +1,176 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img { margin:0px; padding:0px; }
+h2{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+@font-face{
+	font-family: Spoqa_Han_Sans_Bold;
+    src: url('static/fonts/Spoqa_Han_Sans_Bold.ttf');
+	font-weight: normal;
+	font-style: none;
+}
+
+@font-face{
+	font-family: Spoqa_Han_Sans_Light;
+    src: url('static/fonts/Spoqa_Han_Sans_Light.ttf');
+	font-weight: normal;
+	font-style: none;
+}
+
+@font-face{
+	font-family: Spoqa_Han_Sans_Regular;
+    src: url('static/fonts/Spoqa_Han_Sans_Regular.ttf');
+	font-weight: normal;
+	font-style: none;
+}
+
+@font-face{
+	font-family: Spoqa_Han_Sans_Thin;
+    src: url('static/fonts/Spoqa_Han_Sans_Thin');
+	font-weight: normal;
+	font-style: none;
+}
+
+#main {
+    font-family: Spoqa_Han_Sans_Regular;
+    background-color: #EA5514;
+}
+
+#header{
+    padding: 2% 0% 1% 0%;
+    width: 100%;
+    z-index: 2;
+}
+
+#logo{
+    padding-left: 3%;
+    float: left;
+}
+
+#logo a{
+    font-family: Spoqa_Han_Sans_Thin;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+
+ul#menu {
+    color: white;
+    font-size: 16px;
+    list-style: none;
+    float: right;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+ul#menu li {
+    display: inline;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+#SNS{
+    padding-left: 2rem;
+}
+
+.container2 {
+    background-color: white;
+    z-index: 1;
+}
+
+.container1 {
+    background: url('../images/yellow_circle.png') no-repeat;
+    background-position-x: 0%;
+    background-position-y: 40%;
+    background-size: 25%;
+}
+
+#blue_circle {
+    background: url('../images/blue_circle.png') no-repeat;
+    background-position-x: 100%;
+    background-position-y: 24%;
+    background-size: 20%;
+    z-index: 2;
+}
+#content1 {
+    padding: 10% 0% 5% 0%;
+    padding-left: 5%;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+#pang {
+    font-size: 175px;
+}
+
+#check{
+    text-align: center;
+    padding: 3% 0%;
+}
+
+/* 2nd page */
+
+#para{
+    text-align: center;
+    padding-top: 6%;
+}
+
+#para-1{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 48px;
+}
+#para-2{
+    padding-top: 2.5%;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+#pictos{
+    width:80%;
+    padding-top: 8%;
+    text-align: center;
+    margin: 0 auto;
+}
+#pictos #step1, #step2, #step3{
+    width: 33%;
+    display: inline-block;
+    line-height: 24px;
+}
+#container3{
+    width:80%;
+    padding-top: 8%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+#container3 h2{
+    color: #EA5514;
+    padding-bottom: 2%;
+}
+
+#participate{
+    padding-bottom: 5%;
+}
+
+#footer{
+    width:80%;
+    padding: 4% 0%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 18px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+
+#footer h2{
+    font-size: 17px;
+    padding-bottom: 3%;
+}
